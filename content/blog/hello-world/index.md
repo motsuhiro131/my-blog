@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: ポートフォリオ用サイトを作り直して公開です
 date: "2020-03-31T22:12:03.284Z"
-description: "Hello World"
+description: "はじめに"
 ---
 
 ## 軽めな自己紹介
