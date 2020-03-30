@@ -1,22 +1,65 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2020-03-31T22:12:03.284Z"
 description: "Hello World"
 ---
 
-This is my first post on my new fake blog! How exciting!
+## 軽めな自己紹介
 
-I'm sure I'll write a lot more interesting things in the future.
+このサイトに来た人は始めまして、SNSとかから来た人はまたかよという感じでしょう。
+普段は「もつ」という名前でSNSで自由気ままにやっております。
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+ドメイン名をみて「そんな名前で呼ばれていたことがあったっけ？」と思うかもしれませんが、一部の人以外は知らないと思います。
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+むかーし（といっても3年ほど前）にとある会社さんのITイベントのメンバーをやっていたときに、つけてもらったあだ名です（その時のメンバー以外はこのあだ名で呼びません）
+使わないのも寂しいなあと思っていたのですが、ほぼほぼ定着しないと思うのでせめてドメインぐらいはという感じです。
+
+## このサイトの用途
+詳しくはAboutとかに書きますが、以下の用途で使うつもりです。
+・各種ポートフォリオ（色々問わず）
+・ブログ（技術系メイン）
+
+すでにはてなブログで趣味全開のブログは作っているのですが、ポートフォリオとしてアレをだすのはいささか引けるので別途作ることにしました。完全引っ越ししてもいいのですが、すでに課金しまくっているので面倒ですし。
+作り直したという言い方をしているということは過去に合ったということです。。。
+
+## ポートフォリオサイトの作り直し歴
+### １：Wordpress+AWS
+研修を受けておきながら全くと言っていいほど業務で使わなかったAWSの知識を少しでも活かしたいということで作りました。
+LightSailで５分足らずで作ったり、EC2の構築時にプラグイン入で作成しても良かったのですが、
+結局１から下記構成にて作成をすることにしました。
+
+
+マルチAZ、マルチRjにしなかったのは課金されるのがいくら勉強用とはいえ嫌だったからです。
+S3にて静的コンテンツ配信はさせるようにしていましたが、そんなことになる事態は皆無でしたね。
+ブログを作ったのはいいものの、ほとんどが放置状態でした。
+目的はあくまで構築をすることだったので中身なんてどうでも良かったです。
+IGWとかそのへんの通信がうまくいかなくてハマったのはいい思い出です。
+
+
+### ２：Wordpress＋Xserver
+無料枠がなくなるということで放置していたこのブログをどうするのか考えた時に、ポートフォリオとして使うために引っ越しをすることにしました。
+
+大した課金もされないのでそのまま放置しても問題ないのですが、使う時に戻せばいいやということで引っ越しをすることにしました。
+
+無料サーバーは特に考えずにXFreeのサービスを使うことにしました。
+理由なんて殆ど無いです。
+
+技術系のブログをメインにする・少しはWordpressをいじるという目的があったので、１から入れることはせずにプラグイン入のプランで作りました。
+
+結局放置しまくりだったのですが、理由はその次で語ります。
+一言で言うと用途としてもっといいのにしたかったからです。
+
+### ３：今
+
+流行りにのってGatsby.js +  Netlifyにしました。
+理由は主に２つほどです。
+
+・プラグインの更新や通知がうるさい
+サーバーは半年に１度更新依頼を出すとかWordpressの脆弱性のプラグインを更新しろだのこういうのが嫌いな人からすると面倒以外の何者でもありませんでした。
+
+
+
+更新の仕方についてはまだ検討中です。ヘッドレスCMSをどれにするか（microCMS or Contentful）、Markdownにするかしないか等など全然きめていないのですが、とりあえずはこのままで行こうと思います。
+
 
 ![Chinese Salty Egg](./salty_egg.jpg)
