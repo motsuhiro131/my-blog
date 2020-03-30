@@ -1,9 +1,14 @@
 import React from "react"
-import Header from "../components/header"
-export default () => (
-  <div style={{ color: `teal` }}>
-    <Header headerText="About Gatsby" />
-    <Header headerText="It's pretty cool" />
+imoport { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+const AboutPage () => (
+  <Layout>
+    <SEO title="About Gatsby" />
+    <h1>"It's pretty cool" </h1>
     <p>Such wow. Very React.</p>
-  </div>
+    <Linl to="/">Go back</Link>
+  </Layout>
 )
+
+export default AboutPage
