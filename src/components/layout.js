@@ -24,7 +24,6 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-        <Link to="/">about</Link>
           {title}
         </Link>
       </h1>
