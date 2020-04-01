@@ -10,6 +10,9 @@ module.exports = {
     social: {
       twitter: `ad_motsu`,
     },
+    social: {
+      github: `motsuhiro131`,
+    },
   },
   plugins: [
     {
