@@ -63,7 +63,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, 他にやっている内容はこちら
         {` `}
-        <a href="https://www.motsu-tanbou.com/">はてなブログ</a>/<a href="https://github.com/motsuhiro131">GitHub</a>/
+        <a href="https://www.motsu-tanbou.com/">はてなブログ</a>
       </footer>
     </div>
   )
