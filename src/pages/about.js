@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const AboutPage = () => {
+const BlogIndex = () => {
     return (
       <div>
           <ul>
