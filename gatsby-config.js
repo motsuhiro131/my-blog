@@ -9,7 +9,9 @@ module.exports = {
     siteUrl: `https://github.com/motsuhiro131`,
     social: {
       twitter: `ad_motsu`,
-      github: `motsuhiro131`,
+    },
+    githubac: {
+      username: `motsuhiro131`,
     },
   },
   plugins: [
