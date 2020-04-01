@@ -61,7 +61,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, SNSはこちら
         {` `}
         <a href="https://twitter.com/ad_motsu">Twitter</a>/<a href="https://github.com/motsuhiro131">GitHub</a>/
       </footer>

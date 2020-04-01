@@ -3,7 +3,7 @@ module.exports = {
     title: `Motsu Log`,
     author: {
       name: `motsu`,
-      summary: `インフラ系のSIerで監視やらITSMやら`,
+      summary: `SIerでインフラ系（監視やらITSMやら）がお仕事です`,
     },
     description: `学習したことのアウトプットとか`,
     siteUrl: `https://github.com/motsuhiro131`,
