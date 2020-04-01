@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import 'typeface-lato'
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -12,7 +11,6 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          fontfamily: `Lato`,
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
@@ -34,7 +32,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Lato, sans-serif`,
+          fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
         }}
       >
