@@ -3,7 +3,7 @@ module.exports = {
     title: `Motsu Log`,
     author: {
       name: `motsu`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `twitter/Github.`,
     },
     description: `学習したことのアウトプットとか`,
     siteUrl: `https://github.com/motsuhiro131`,
