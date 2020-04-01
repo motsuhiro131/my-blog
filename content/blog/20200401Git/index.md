@@ -6,8 +6,7 @@ description: "Gitについてトラウマを抱えていたころのお話"
 ![Gitlogo](./Git-Logo-2Color.png)  
 ## 3年前のある時「あれ?pushされないんだけど???」
 その時はハッカソンに出ていて（コードかけないから広報とかそっちで）、GitHubを使って成果物を作成していました。  
-一緒に居た人たちは情報系なので知っているはずですが、さっぱりわからないとのこと・・・。  
-（ちなみになぜか個人には出来てもチームのリポジトリにはpushできなくて人間gitと化しました）  
+一緒に居た人たちは情報系なので知っているはずですが、さっぱりわからないとのこと・・・。（ちなみになぜか個人には出来てもチームのリポジトリにはpushできなくて人間gitと化しました）  
 以来、若干のトラウマを残しながら放置することとなりました。  
 
 ## そうだポートフォリオを作ろう
@@ -118,6 +117,6 @@ $ git push -u origin master
 ま、解決したから万事 **ヨシッ！**  
 
 参考  
-[GitHub 初心者の最初のプッシュ](https://qiita.com/folivora/items/763d06b26bafd573a456)
-[こっそり始めるGit／GitHub超入門](https://www.atmarkit.co.jp/ait/series/3190/)
+[GitHub 初心者の最初のプッシュ](https://qiita.com/folivora/items/763d06b26bafd573a456)  
+[こっそり始めるGit／GitHub超入門](https://www.atmarkit.co.jp/ait/series/3190/)  
 [GitHubでssh接続する手順 公開鍵・秘密鍵の生成から](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
