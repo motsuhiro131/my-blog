@@ -56,7 +56,6 @@ module.exports = {
         host: `preview.contentful.com`,
       },
     },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
