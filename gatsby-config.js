@@ -48,6 +48,14 @@ module.exports = {
           `gatsby-remark-smartypants`,
         ],
       },
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `your_space_id`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        host: `preview.contentful.com`,
+      },
+    },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -81,4 +89,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  
 }
