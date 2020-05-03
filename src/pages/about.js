@@ -9,9 +9,6 @@ const BlogIndex = () => {
           </ul>
           <h1>Gatsby Blog Site</h1>
       </div>
-      <div>
-        <h2>あばうと</h2>
-      </div>
     )
 }
 
