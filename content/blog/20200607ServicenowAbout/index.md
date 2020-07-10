@@ -1,7 +1,7 @@
 ---
 title: ServiceNow入門1:そもそもServiceNowとは？
 date: "2020-06-06T23:45:03.284Z"
-description: "リモートワークをはじめたので感想とかを書いてみようかなと"
+description: "ServiceNowについてイントロ的なまとめをしてみました"
 ---
 ![SN_Logo](./SNowLogo.png)  
 お勉強も兼ねますが、日本ではあまり聞かないServiceNowというツールについて書いていこうと思います。 
