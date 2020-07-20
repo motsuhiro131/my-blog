@@ -79,4 +79,5 @@ S3のバケットにはもとのPDFがアップロードされています。
 AWSは万能かなと思っていましたが、思わぬところに制約がありますね。ちょっと意外でした。
 
 ## 参考  
+[音声を文字起こしする](https://aws.amazon.com/jp/getting-started/hands-on/create-audio-transcript-transcribe/)  
 [Amazon Textract を使用したドキュメントからのテキストと構造化データの自動抽出](https://aws.amazon.com/jp/blogs/news/automatically-extract-text-and-structured-data-from-documents-with-amazon-textract/)
