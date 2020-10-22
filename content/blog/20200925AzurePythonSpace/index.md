@@ -29,3 +29,27 @@ AzureとPythonを使った初学者向けの教材がMicrosoftから公開され
 [CODE.NASA.GOV](https://code.nasa.gov/)  
 [jupyter Notebook](https://jupyter.org/)  
 実際にPythonが使われている例を見ることで初学者がプログラミングに対してどう具体的に貢献しているのかを知ることができます。全部英語ですが。。。
+
+
+## ハンズオン
+まずはじめに四則演算をしていますが、このへんはしっている人は飛ばしてもらって大丈夫です。  
+例えば変数に関してはこんなふうな例を出しています。名前がアルテミスローバーとかにしているのはいかにもっぽくていいですね。
+```
+# Integer Variable
+numberOfRocks = 5
+
+# Float Variable
+tempInSpace = -457.87
+
+# String Variable
+roverName = "Artemis Rover"
+
+# Boolean Variable
+rocketOn = False
+```
+その次にこう打ち込みます。
+```
+roverName
+```
+変数を表示するだけですから特になにもないのですが・・・。  
+  
