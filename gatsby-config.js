@@ -8,7 +8,7 @@ module.exports = {
     description: `学習したことのアウトプットとか`,
     siteUrl: `https://github.com/motsuhiro131`,
     social: {
-      twitter: `ad_motsu`,
+      twitter: `26mo2`,
       github: `motsuhiro131`,
     },
   },
